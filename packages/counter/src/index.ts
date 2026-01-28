@@ -27,13 +27,13 @@ export class Counter {
     }
   }
 
-  increment() {
-    this.count++;
+  increment(amount: number = 1) {
+    this.count += amount;
     this.notify();
   }
 
-  decrement() {
-    this.count--;
+  decrement(amount: number = 1) {
+    this.count -= amount;
     this.notify();
   }
 }
