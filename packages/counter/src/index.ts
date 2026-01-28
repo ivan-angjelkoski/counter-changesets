@@ -7,7 +7,7 @@ type Listener = (state: State) => void;
 export class Counter {
   private count: number = 0;
 
-  listeners: Set<Listener> = new Set();
+  private listeners: Set<Listener> = new Set();
 
   constructor() {
     this.count = 0;
@@ -21,10 +21,14 @@ export class Counter {
     };
   }
 
-  notify() {
+  private notify() {
     for (const listener of this.listeners) {
-      listener({ count: this.count });
+      listener(this.getState());
     }
+  }
+
+  getState() {
+    return { count: this.count };
   }
 
   increment(amount: number = 1) {
