@@ -5,14 +5,14 @@
 ### Patch Changes
 
 - Updated dependencies [901fe4e]
-  - @ivan-angjelkoski/counter@1.0.4
+  - @ivan-angelkoski/counter@1.0.4
 
 ## 0.1.2
 
 ### Patch Changes
 
 - Updated dependencies [2355f3d]
-  - @ivan-angjelkoski/counter@1.0.3
+  - @ivan-angelkoski/counter@1.0.3
 
 ## 0.1.1
 

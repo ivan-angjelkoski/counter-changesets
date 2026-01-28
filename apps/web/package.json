@@ -15,7 +15,7 @@
     "next": "16.1.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "@ivan-angjelkoski/counter": "workspace:*"
+    "@ivan-angelkoski/counter": "workspace:*"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",

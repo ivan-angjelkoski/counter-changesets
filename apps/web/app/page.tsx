@@ -4,7 +4,7 @@ import Image, { type ImageProps } from "next/image";
 
 import styles from "./page.module.css";
 
-import { Counter } from "@ivan-angjelkoski/counter";
+import { Counter } from "@ivan-angelkoski/counter";
 import { useEffect, useRef, useState } from "react";
 
 type Props = Omit<ImageProps, "src"> & {
