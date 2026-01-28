@@ -1,5 +1,11 @@
 # @ivanangjelkoski/counter
 
+## 1.0.6
+
+### Patch Changes
+
+- c3c825c: add files field in package json
+
 ## 1.0.5
 
 ### Patch Changes
