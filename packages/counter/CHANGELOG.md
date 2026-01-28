@@ -1,5 +1,11 @@
 # @ivanangjelkoski/counter
 
+## 1.0.9
+
+### Patch Changes
+
+- 1711cca: minor improvements to the counter class
+
 ## 1.0.8
 
 ### Patch Changes

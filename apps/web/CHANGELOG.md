@@ -1,5 +1,12 @@
 # web
 
+## 0.1.8
+
+### Patch Changes
+
+- Updated dependencies [1711cca]
+  - @ivan-angelkoski/counter@1.0.9
+
 ## 0.1.7
 
 ### Patch Changes
