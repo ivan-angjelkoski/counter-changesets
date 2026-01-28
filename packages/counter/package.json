@@ -1,6 +1,6 @@
 {
   "name": "@ivan-angelkoski/counter",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Test counter package with changesets",
   "type": "module",
   "main": "dist/index.cjs",

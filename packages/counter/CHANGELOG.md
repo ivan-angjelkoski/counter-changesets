@@ -1,5 +1,11 @@
 # @ivanangjelkoski/counter
 
+## 1.0.10
+
+### Patch Changes
+
+- d3837df: make the package platform neutral
+
 ## 1.0.9
 
 ### Patch Changes
