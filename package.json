@@ -5,11 +5,13 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
+    "test": "turbo run test",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types",
-    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
+    "publish-packages": "turbo run build lint test"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.29.8",
     "prettier": "^3.7.4",
     "turbo": "^2.7.6",
     "typescript": "5.9.2"
