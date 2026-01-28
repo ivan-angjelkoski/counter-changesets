@@ -28,6 +28,15 @@ describe("Counter", () => {
       expect(listener).toHaveBeenCalledTimes(3);
       expect(listener).toHaveBeenLastCalledWith({ count: 3 });
     });
+
+    it("should increment by a specific amount", () => {
+      const listener = vi.fn();
+      counter.subscribe(listener);
+
+      counter.increment(5);
+
+      expect(listener).toHaveBeenCalledWith({ count: 5 });
+    });
   });
 
   describe("decrement", () => {
@@ -49,6 +58,15 @@ describe("Counter", () => {
 
       expect(listener).toHaveBeenCalledTimes(2);
       expect(listener).toHaveBeenLastCalledWith({ count: -2 });
+    });
+
+    it("should decrement by a specific amount", () => {
+      const listener = vi.fn();
+      counter.subscribe(listener);
+
+      counter.decrement(5);
+
+      expect(listener).toHaveBeenCalledWith({ count: -5 });
     });
   });
 
