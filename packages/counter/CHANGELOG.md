@@ -1,5 +1,11 @@
 # @ivanangjelkoski/counter
 
+## 1.0.3
+
+### Patch Changes
+
+- 2355f3d: update package name
+
 ## 1.0.2
 
 ### Patch Changes
