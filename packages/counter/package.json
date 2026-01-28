@@ -18,9 +18,13 @@
     "test": "vitest run",
     "lint": "eslint . --max-warnings 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "counter",
+    "package",
+    "changesets"
+  ],
+  "author": "Ivan Angjelkoski",
+  "license": "MIT",
   "devDependencies": {
     "tsdown": "^0.20.1",
     "vitest": "^4.0.18",
