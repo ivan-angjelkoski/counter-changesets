@@ -1,15 +1,15 @@
 {
-  "name": "@ivanangjelkoski/counter",
-  "version": "1.0.0",
+  "name": "@ivan-angjelkoski/counter",
+  "version": "1.0.1",
   "description": "Test counter package with changesets",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.mts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.mts",
       "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs",
-      "types": "./dist/index.d.mts"
+      "require": "./dist/index.cjs"
     }
   },
   "scripts": {
@@ -25,6 +25,9 @@
   ],
   "author": "Ivan Angjelkoski",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "tsdown": "^0.20.1",
     "vitest": "^4.0.18",
