@@ -60,7 +60,7 @@ importers:
 
   apps/web:
     dependencies:
-      '@ivanangjelkoski/counter':
+      '@ivan-angjelkoski/counter':
         specifier: workspace:*
         version: link:../../packages/counter
       '@repo/ui':
