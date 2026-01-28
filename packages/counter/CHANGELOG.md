@@ -1,5 +1,11 @@
 # @ivanangjelkoski/counter
 
+## 1.0.4
+
+### Patch Changes
+
+- 901fe4e: updated the publish script
+
 ## 1.0.3
 
 ### Patch Changes
