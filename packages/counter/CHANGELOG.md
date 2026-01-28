@@ -1,5 +1,11 @@
 # @ivanangjelkoski/counter
 
+## 1.0.8
+
+### Patch Changes
+
+- 60ed8cb: change the package type to module
+
 ## 1.0.7
 
 ### Patch Changes
