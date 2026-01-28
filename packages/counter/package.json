@@ -15,13 +15,15 @@
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch",
-    "test": "vitest run"
+    "test": "vitest run",
+    "lint": "eslint . --max-warnings 0"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tsdown": "^0.20.1",
-    "vitest": "^4.0.18"
+    "vitest": "^4.0.18",
+    "@repo/eslint-config": "workspace:*"
   }
 }
