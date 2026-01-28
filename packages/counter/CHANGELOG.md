@@ -1,5 +1,11 @@
 # @ivanangjelkoski/counter
 
+## 1.0.5
+
+### Patch Changes
+
+- 35d53e7: name change
+
 ## 1.0.4
 
 ### Patch Changes
