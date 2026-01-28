@@ -25,6 +25,9 @@
   ],
   "author": "Ivan Angjelkoski",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "tsdown": "^0.20.1",
     "vitest": "^4.0.18",
