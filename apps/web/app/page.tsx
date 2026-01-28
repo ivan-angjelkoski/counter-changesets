@@ -1,6 +1,11 @@
+"use client";
+
 import Image, { type ImageProps } from "next/image";
-import { Button } from "@repo/ui/button";
+
 import styles from "./page.module.css";
+
+import { Counter } from "@ivanangjelkoski/counter";
+import { useEffect, useRef, useState } from "react";
 
 type Props = Omit<ImageProps, "src"> & {
   srcLight: string;
@@ -19,6 +24,18 @@ const ThemeImage = (props: Props) => {
 };
 
 export default function Home() {
+  const counter = useRef(new Counter());
+
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const unsubscribe = counter.current.subscribe(({ count }) => {
+      setCount(count);
+    });
+
+    return () => unsubscribe();
+  }, []);
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -63,9 +80,9 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <Button appName="web" className={styles.secondary}>
-          Open alert
-        </Button>
+        <p>Count: {count}</p>
+        <button onClick={() => counter.current.increment()}>Increment</button>
+        <button onClick={() => counter.current.decrement()}>Decrement</button>
       </main>
       <footer className={styles.footer}>
         <a
