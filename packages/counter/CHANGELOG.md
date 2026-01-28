@@ -1,5 +1,12 @@
 # @ivanangjelkoski/counter
 
+## 1.0.5
+
+### Patch Changes
+
+- update package json files field
+- 35d53e7: name change
+
 ## 1.0.4
 
 ### Patch Changes
