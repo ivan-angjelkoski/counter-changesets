@@ -1,5 +1,11 @@
 # @ivanangjelkoski/counter
 
+## 1.0.7
+
+### Patch Changes
+
+- 3059705: minor export type fix
+
 ## 1.0.6
 
 ### Patch Changes
