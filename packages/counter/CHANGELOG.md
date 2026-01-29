@@ -1,5 +1,11 @@
 # @ivanangjelkoski/counter
 
+## 1.0.11
+
+### Patch Changes
+
+- 339e0d3: removed notify method
+
 ## 1.0.10
 
 ### Patch Changes
