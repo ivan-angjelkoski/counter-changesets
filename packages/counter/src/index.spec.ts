@@ -110,7 +110,6 @@ describe("Counter", () => {
 
       counter.subscribe(listener1);
       counter.subscribe(listener2);
-      counter.notify();
 
       expect(listener1).toHaveBeenCalledWith({ count: 0 });
       expect(listener2).toHaveBeenCalledWith({ count: 0 });
