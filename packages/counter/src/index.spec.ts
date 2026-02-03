@@ -1,4 +1,9 @@
-import { Counter, State, Listener, CounterOptions } from "./index";
+import {
+  Counter,
+  type State,
+  type Listener,
+  type CounterOptions,
+} from "./index";
 
 describe("Counter", () => {
   let counter: Counter;
@@ -34,13 +39,19 @@ describe("Counter", () => {
     });
 
     it("should clamp initial value to min/max", () => {
-      const customCounter = new Counter({ initialValue: 150, min: 0, max: 100 });
+      const customCounter = new Counter({
+        initialValue: 150,
+        min: 0,
+        max: 100,
+      });
       expect(customCounter.getCount()).toBe(100);
       expect(customCounter.getInitialValue()).toBe(100);
     });
 
     it("should throw error if min is greater than max", () => {
-      expect(() => new Counter({ min: 100, max: 0 })).toThrow("min cannot be greater than max");
+      expect(() => new Counter({ min: 100, max: 0 })).toThrow(
+        "min cannot be greater than max"
+      );
     });
   });
 
