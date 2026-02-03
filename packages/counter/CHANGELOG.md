@@ -1,5 +1,11 @@
 # @ivanangjelkoski/counter
 
+## 1.1.3
+
+### Patch Changes
+
+- eed569c: minor tests
+
 ## 1.1.2
 
 ### Patch Changes

@@ -1,5 +1,12 @@
 # web
 
+## 0.1.14
+
+### Patch Changes
+
+- Updated dependencies [eed569c]
+  - @ivan-angelkoski/counter@1.1.3
+
 ## 0.1.13
 
 ### Patch Changes
