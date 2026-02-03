@@ -1,5 +1,11 @@
 # @ivanangjelkoski/counter
 
+## 1.1.2
+
+### Patch Changes
+
+- 74a3568: minor description
+
 ## 1.1.1
 
 ### Patch Changes
