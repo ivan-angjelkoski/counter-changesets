@@ -1,5 +1,14 @@
 # web
 
+## 0.1.12
+
+### Patch Changes
+
+- Updated dependencies [7e4c697]
+- Updated dependencies [18b4f42]
+  - @ivan-angelkoski/counter@1.1.1
+  - @repo/ui@0.0.1
+
 ## 0.1.11
 
 ### Patch Changes

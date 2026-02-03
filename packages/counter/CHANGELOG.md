@@ -1,5 +1,12 @@
 # @ivanangjelkoski/counter
 
+## 1.1.1
+
+### Patch Changes
+
+- 7e4c697: minor imports
+- 18b4f42: minor changes
+
 ## 1.1.0
 
 ### Minor Changes
