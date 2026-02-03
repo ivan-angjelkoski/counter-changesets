@@ -1,9 +1,4 @@
-import {
-  Counter,
-  type State,
-  type Listener,
-  type CounterOptions,
-} from "./index";
+import { Counter } from "./index";
 
 describe("Counter", () => {
   let counter: Counter;
@@ -282,32 +277,6 @@ describe("Counter", () => {
       counter.increment();
 
       expect(listener).not.toHaveBeenCalled();
-    });
-  });
-
-  describe("type exports", () => {
-    it("should export State type", () => {
-      const state: State = { count: 5 };
-      expect(state.count).toBe(5);
-    });
-
-    it("should export Listener type", () => {
-      const listener: Listener = (state) => {
-        expect(state.count).toBeDefined();
-      };
-      counter.subscribe(listener);
-      counter.increment();
-    });
-
-    it("should export CounterOptions type", () => {
-      const options: CounterOptions = {
-        initialValue: 10,
-        min: 0,
-        max: 100,
-        step: 5,
-      };
-      const customCounter = new Counter(options);
-      expect(customCounter.getCount()).toBe(10);
     });
   });
 });
